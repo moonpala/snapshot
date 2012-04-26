@@ -1,0 +1,4 @@
+cron:
+- description: normal fetching every 20 min
+  url: /cron
+  schedule: every 20 minutes

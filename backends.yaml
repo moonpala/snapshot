@@ -1,0 +1,4 @@
+backends:
+- name: fetching
+  class: B1
+  options: dynamic

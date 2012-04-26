@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <title>Amazon Pricing Monitor</title>
+  </head>
+  <body>
+    {{range .}}
+    <a href="/view?asin={{.Name}}">{{.Name}}</a> | 
+    {{end}}
+  </body>
+</html>
